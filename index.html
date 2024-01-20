@@ -1,0 +1,819 @@
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta name="keywords" content="56 Sunshine Lane, Chandigarh 160022, India(Random Address)" />
+    <meta name="description" content="A E-Commerce Store(Medical) " />
+    <meta name="author" content="E-Commerce Store(Medical)" />
+
+    <title>E-Commerce Store(Medical)</title>
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/icon" href="/images/icon.png">
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+      integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="css/responsive.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <div class="hero_area">
+
+      <header class="header_section">
+
+        <div class="header_bottom">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/icon.png" alt="">
+              </a>
+
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""> </span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex mr-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html"> About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="treatment.html">Treatment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="doctor.html">Why Us?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="testimonial.html">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#con">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="quote_btn-container">
+                  <a href="Login-Signup.html">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span>
+                      Login/SignUp
+                    </span>
+                  </a>
+                  
+
+                  <div id="loginPopup" class="popup-container">
+                    <div class="form-container">
+                      <span class="close-btn" onclick="closePopup('loginPopup')">&times;</span>
+                      <form action="login.php" method="post">
+
+                        <h2>Login Form</h2>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required placeholder="Your Name">
+
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required placeholder="Password">
+
+                        <label for="fa fa-phone">Phone number:</label>
+                        <input type="number" for="fa fa-phone" id="username" name="username" required
+                          placeholder="Phone number">
+
+                        <label for="">Email ID:</label>
+                        <input type="text" id="username" name="username" required placeholder="Email ID">
+
+                        <button type="submit">Login</button>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div id="signupPopup" class="popup-container">
+                    <div class="form-container">
+                      <span class="close-btn" onclick="closePopup('signupPopup')">&times;</span>
+                      <form action="signup.php" method="post">
+                        <h2>Sign Up</h2>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required placeholder="Your Name">
+
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required placeholder="Password">
+
+                        <label for="fa fa-phone">Phone number:</label>
+                        <input type="number" for="fa fa-phone" id="username" name="username" required
+                          placeholder="Phone number">
+
+                        <label for="">Email ID:</label>
+                        <input type="text" id="username" name="username" required placeholder="Email ID">
+                        <button type="submit">Sign Up</button>
+                      </form>
+                    </div>
+                  </div>
+                  <form class="form-inline">
+                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="slider_section ">
+        <div class="dot_design">
+          <img src="images/dots.png" alt="">
+        </div>
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div class="play_btn">
+                        <button onclick="window.location.href='#con'">
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                        </button>
+
+
+                      </div>
+                      <div class="animated-text">
+                        <h3>Vansh</h3>
+                        <h3>Harsh</h3>
+                        <h3>Mayank</h3>
+                        <h3>Shashank</h3>
+                      </div>
+
+                      <h1>
+                        E-Commerce(Medical) <br>
+                        <span>
+                          Store
+                        </span>
+                      </h1>
+                      <p>
+                        Welcome to E-Commerce Store, your neighborhood destination for comprehensive healthcare essentials.
+                        At E-Commerce Store, we pride ourselves on being a trusted and reliable medical store committed to
+                        the health and well-being of our community.
+                      </p>
+                      <a href="#con">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/sliderh1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div class="play_btn">
+                        <button>
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                      <div class="animated-text">
+                        <h3>Vansh</h3>
+                        <h3>Harsh</h3>
+                        <h3>Mayank</h3>
+                        <h3>Shashank</h3>
+                      </div>
+
+                      <h1>
+                        Medical <br>
+                        <span>
+                          Store
+                        </span>
+                      </h1>
+                      <p>
+                        At E-Commerce Store, we are dedicated to providing top-notch medicine treatments to our valued
+                        community. With a focus on quality and personalized care, our experienced team ensures that every
+                        customer receives the right medications tailored to their health needs. Our extensive inventory
+                        covers a diverse range of pharmaceutical products, including both over-the-counter and
+                        prescription medications. Committed to upholding the highest standards, E-Commerce Store is your
+                        trusted source for reliable healthcare solutions. Located at 56 Sunshine Lane, Chandigarh 160022, India(Random Address), we invite you to
+                        experience excellence in pharmaceutical services at E-Commerce Store.
+                      </p>
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/sliderh2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div class="play_btn">
+                        <button>
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                      <div class="animated-text">
+                        <h3>Vansh</h3>
+                        <h3>Harsh</h3>
+                        <h3>Mayank</h3>
+                        <h3>Shashank</h3>
+                      </div>
+                      <h1>
+                        Medical <br>
+                        <span>
+                          Store
+                        </span>
+                      </h1>
+                      <p>E-Commerce Store has become my trusted healthcare destination, offering personalized service and an extensive range of
+                      high-quality pharmaceutical products. The knowledgeable and friendly staff at this conveniently located pharmacy ensure
+                      that every visit is a positive experience. I appreciate their commitment to providing effective medications and the
+                      genuine care they invest in understanding my health needs. E-Commerce Store is not just a pharmacy; it's a reliable
+                      partner in my health journey, making it my go-to choice for all my medical needs.
+                      </p>
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/sliderh3.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_btn-box">
+            <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+              <img src="images/prev.png" alt="">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+              <img src="images/next.png" alt="">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+
+
+
+    <section class="book_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form>
+              <h4>
+                PLACE <span>YOUR ORDER</span>
+              </h4>
+              <div class="form-row ">
+                <div class="form-group col-lg-4">
+                  <label for="inputPatientName">Your Name </label>
+                  <input type="text" class="form-control" id="inputPatientName" placeholder="Your Name">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputDoctorName">Your Email</label>
+                  <input name="" class="form-control wide" type="email" id="inputDoctorName"
+                    placeholder="someone@example.com">
+
+                  </input>
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputDoctorName">Medicine's Name</label>
+                  <input type="text" name="" class="form-control wide" id="inputDoctorName" placeholder="Medicine's name">
+
+                  </input>
+                </div>
+              </div>
+              <div class="form-row ">
+                <div class="form-group col-lg-4">
+                  <label for="inputPhone">Phone Number</label>
+                  <input type="number" class="form-control" id="inputPhone" placeholder="+91 XXXXXXXXXX">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputQuantity">Quantity</label>
+                  <input type="number" class="form-control" id="inputSymptoms" placeholder="example x 100">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputAddress">Your Address </label>
+                  <div class="input-group date" id="text">
+                    <input type="text" class="form-control" readonly placeholder="Your address">
+                    <span class="input-group-addon date_icon">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box">
+                <button type="submit" class="btn ">Place it Now!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="about_section">
+      <div class="container  ">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="img-box">
+              <img src="images/medicine.png" alt="" style=" margin-left: 20%;">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2 class="anime">
+                  About <span>Our Products</span>
+                </h2>
+              </div>
+              <p>
+                E-Commerce Store proudly presents a diverse range of high-quality healthcare products tailored to meet your
+                unique needs. Our commitment to pharmaceutical excellence ensures that each product, whether medication,
+                wellness supplement, or medical equipment, adheres to the highest standards of safety and efficacy. At
+                E-Commerce Store, we prioritize your well-being, offering a personalized approach to healthcare with
+                knowledgeable staff ready to assist. Explore our popular categories, including a comprehensive selection
+                of medications, wellness solutions, and essential medical supplies. Our products are sourced from
+                reputable suppliers, guaranteeing authenticity and reliability. Choose E-Commerce Store for a trusted
+                partner in your health journey, where every product reflects our dedication to providing excellence in
+                healthcare.
+              </p>
+              <a href="/about.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="treatment_section layout_padding">
+      <div class="side_img">
+        <img src="images/treatment-side-img.jpg" alt="">
+      </div>
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>
+            All Types of <span>Medicines</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/t1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Nephrologist Care
+                </h4>
+                <a href="/treatment.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/t2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Eye Care
+                </h4>
+                <a href="/treatment.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/t3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Pediatrician Clinic
+                </h4>
+                <a href="/treatment.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/t4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Parental Care
+                </h4>
+                <a href="/treatment.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+
+    <section class="client_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            <span>Customer Reviews</span>
+          </h2>
+        </div>
+      </div>
+      <div class="container px-0">
+        <div id="customCarousel2" class="carousel  carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="box">
+                <div class="client_info">
+                  <div class="client_name">
+                    <h5>
+                      Vibhor
+                    </h5>
+                    <h6>
+                      <a href="">Delhi</a>
+                    </h6>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  I absolutely love E-Commerce Store! It has become my go-to place for all my medical needs. The staff there is just amazing
+                  and always willing to help with a smile. What I really appreciate about E-Commerce Store is their vast range of
+                  pharmaceuticals. They have everything, and I mean everything! From over-the-counter medicines to specialized
+                  prescriptions, they have got it all.
+                </p>
+                <a href="/testimonial.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <section id="con" class="contact_section layout_padding-bottom">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Give us your view about us
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="form_container">
+              <form action="">
+                <div>
+                  <input type="text" placeholder="Full Name" />
+                </div>
+                <div>
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div>
+                  <input type="text" placeholder="Phone Number" />
+                </div>
+                <div>
+                  <input type="text" class="message-box" placeholder="What you think about our service?" />
+                </div>
+                <div class="btn_box">
+                  <button>
+                    Let Us know!
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="img-box">
+              <img src="images/contact-img.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info_section ">
+      <div class="container">
+        <div class="info_top">
+          <div class="info_logo">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="info_bottom layout_padding2">
+          <div class="row info_main_row">
+            <div class="col-md-6 col-lg-3">
+              <h5>
+                Address
+              </h5>
+              <div class="info_contact">`
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    VANSH4NAGPAL/E-COM                 <a target="_blank" href="">Location</a>                
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true" id="con"></i>
+                  <span>
+                    Call +91 1234567890
+                  </span>
+                </a>
+                  <i class="fa fa-envelope"></i>
+                  <span>
+                    nagpalvansh2004@gmail.com
+                  </span>
+              </div>
+              <div class="social_box">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="info_links">
+                <h5>
+                  Useful link
+                </h5>
+                <div class="info_links_menu">
+                  <a class="active" href="index.html">
+                    Home
+                  </a>
+                  <a href="about.html">
+                    About
+                  </a>
+                  <a href="treatment.html">
+                    Treatment
+                  </a>
+                  <a href="doctor.html">
+                    Why Us?
+                  </a>
+                  <a href="testimonial.html">
+                    Testimonial
+                  </a>
+                  <a href="#con">
+                    Contact us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="info_post">
+                <h5>
+                  LATEST POSTS
+                </h5>
+                <div class="post_box">
+                  <div class="img-box">
+                    <img src="images/post1.jpg" alt="">
+                  </div>
+                  <p>
+                    Normal
+                    distribution
+                  </p>
+                </div>
+                <div class="post_box">
+                  <div class="img-box">
+                    <img src="images/post2.jpg" alt="">
+                  </div>
+                  <p>
+                    Normal
+                    distribution
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="info_post">
+                <h5>
+                  News
+                </h5>
+                <div class="post_box">
+                  <div class="img-box">
+                    <img src="images/post3.jpg" alt="">
+                  </div>
+                  <p>
+                    Normal
+                    distribution
+                  </p>
+                </div>
+                <div class="post_box">
+                  <div class="img-box">
+                    <img src="images/post4.png" alt="">
+                  </div>
+                  <p>
+                    Normal
+                    distribution
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By Harsh
+          | Made by Harsh, Vansh, Mayank,Shashank - MRU
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+      integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+
+
+    <script src="js/custom.js"></script>
+
+    <style>
+      .popup-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      .form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        margin-bottom: 8px;
+      }
+
+      input {
+        padding: 10px;
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 20px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+
+      .animated-text {
+        position: relative;
+        height: 70px;
+        overflow: hidden;
+      }
+
+      .animated-text h3 {
+        color: #4e9eff;
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 1px;
+      }
+
+      .animated-text h3:nth-child(1) {
+        animation: text-move 14.5s infinite;
+      }
+
+      @keyframes text-move {
+        0% {
+          margin-top: 0;
+        }
+
+        18% {
+          margin-top: -70px;
+        }
+
+        34% {
+          margin-top: -145px;
+        }
+
+        50% {
+          margin-top: -235px;
+        }
+
+        66% {
+          margin-top: -145px;
+        }
+
+        82% {
+          margin-top: -70px;
+        }
+
+        100% {
+          margin-top: 0;
+        }
+      }
+    </style>
+
+
+  </body>
+
+  </html>
